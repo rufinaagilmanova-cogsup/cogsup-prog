@@ -1,0 +1,5 @@
+section,code,answer1,answer2,answer3,correct
+Warm-up,"print(""Bonjour, world"")","Bonjour, world",,,1
+Warm-up,"print(""Bonjour,\nworld"")","Bonjour,
+world",,,1
+Warm-up,"print(Bonjour, world)",error,,,1

@@ -1,0 +1,257 @@
+section,code
+Warm-up,"print(""Bonjour, world"")"
+Warm-up,"print(""Bonjour,\nworld"")"
+Warm-up,"print(Bonjour, world)"
+Simple operations,3 + 10
+Simple operations,3 = 10
+Simple operations,3 == 10
+Simple operations,2 ** 10
+Simple operations,'3 + 10'
+Simple operations,3 * '10'
+Simple operations,a*10
+Simple operations,'a' * 10
+Simple operations,int('3') + int('10')
+Simple operations,int('hello world')
+Simple operations,10 / 5
+Simple operations,int(10 / 5)
+Simple operations,10 / 4
+Simple operations,10 // 4
+Simple operations,int(10/4)
+Simple operations,int(10)/4
+Simple operations,"type(""True"")"
+Simple operations,type(True)
+Conditionals,"a=3
+if (a==3):
+    print(""it's a three!"")"
+Conditionals,"a=3
+if a==3:
+    print(""it's a four!"")"
+Conditionals,"a=3
+if a=4:
+    print(""it's a four!"")"
+Conditionals,"a=3
+if a<10:
+    print(""we're here"")
+elif a<100:
+    print( ""and also here"")"
+Conditionals,"a=3
+if a<10:
+    print(""we're here"")
+if a<100:
+    print(""and also here"")"
+Conditionals,"a = ""False""
+if a:
+    print(""we're in the 'if'"")
+else:
+    print(""we're in the 'else'"")"
+Conditionals,"a = 5
+b = 10
+if a and b:
+    print(""a is"", a)
+    print(""b is"", b)"
+Conditionals,"a = 5
+b = 0
+if a and b:
+    print(""a is"", a)
+    print(""b is"", b)"
+Conditionals,"a = 5
+b = 0
+if a or b:
+    print(""a is"", a)
+    print(""b is"", b)"
+Conditionals,"if None:
+    print(""if"")
+elif []:
+    print(""elif"")
+else:
+    print(""else"")"
+Conditionals,"n = 12
+if n > 0:
+    if n % 2 != 0:
+        print(""if"")
+    else:
+        print(""else"")"
+Conditionals,"x = 0
+y = 10
+if y and (y / x > 2):
+    print(""if"")
+else:
+    print(""else"")"
+Conditionals,"x = 0
+y = 10
+if x and (y / x > 2):
+    print(""if"")
+else:
+    print(""else"")"
+Lists,"animals = ['dog', 'cat', 'panda']
+if panda in animals:
+    print(""found it!"")"
+Lists,"animals = ['dog', 'cat', 'panda']
+if ""panda"" or ""giraffe"" in animals:
+    print(""found it!"")"
+Lists,"animals = ['dog', 'cat', 'panda']
+if ""panda"" and ""giraffe"" in animals:
+    print(""found it!"")"
+Lists,"animals = ['dog', 'cat', 'panda']
+if ['dog', 'cat'] in animals:
+    print(""we're here"")"
+Lists,"some_nums = range(1,5)
+list(some_nums)"
+Lists,"some_nums = range(1,5)
+some_nums[0]"
+Lists,"animals = ['dog', 'cat', 'panda']
+print(animals[-1])"
+Lists,"animals = ['dog', 'cat', 'panda']
+print(animals.index('cat'))"
+Lists,"animals = ['dog', 'cat', 'panda']
+more_animals = animals + ['giraffe']
+print(more_animals)"
+Lists,"animals = ['dog', 'cat', 'panda']
+more_animals = animals.append('giraffe')
+print(more_animals)"
+Lists,"animals = ['dog', 'cat', 'panda']
+animals.append(""giraffe"")
+print(animals)"
+Lists,"animals = ['dog', 'cat', 'panda']
+for num,animal in enumerate(animals):
+    print(f""Number {num+1} is {animals}"")"
+Lists,"animals = ['dog', 'cat', 'panda']
+for num,animal in enumerate(animals):
+    print(f""Number {num} is {animal}"")
+print(f""We have {len(animals)} animals in our list"")"
+Lists,"animals = ['dog', 'cat', 'panda']
+while animals:
+    print(animals.pop())
+print(f""We have {len(animals)} animals in our list"")"
+Lists,"lst = ['spam']
+print(len(lst))
+print(len(lst[0]))"
+Lists,list(range(10)[-5:])
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[4]"
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[-2]"
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[12]"
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[0:5]"
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[5:]"
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[-2:]"
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[12:]"
+Lists,"lst = list(""abcdef"")
+lst[:3]"
+Lists,"lst = list(""abcdef"")
+lst[:10]"
+Lists,"lst = list(""abcdef"")
+lst[::2]"
+Lists,"lst = list(""abcdef"")
+lst[:3:2]"
+Lists,"lst = list(""abcdef"")
+lst[3::2]"
+Lists,"lst = [""d"", ""a"", ""b"", ""f"", ""c"", ""e""]
+min(lst)"
+Lists,"lst = [6, ""d"", 2, ""a"", 5, ""b"", 1, ""f"", 7, ""c"", 4, ""e"", 3]
+max(lst)"
+Lists,"vowels = ['a', 'e', 'i','o','u']
+[element*i for i, element in enumerate(vowels)]"
+Lists,"vowels = ['a', 'e', 'i','o','u']
+numbers = [2, 4, 1, 3, 0]
+[vowel * number for vowel, number in zip(vowels, numbers)]"
+Lists,"responses = 'ccctcctttcc'
+[i for i, curResp in enumerate(responses) if curResp=='c']"
+Lists,"numbers = [2, 4, 1, 3, 0]
+sorted(numbers)
+numbers"
+Lists,"numbers = [2, 4, 1, 3, 0]
+numbers.sort()
+numbers"
+Lists,"[' '.join((i, 'and a')) for i in ('one', 'two', 'three')]"
+Lists,"' '.join([' '.join((i, 'and a')) for i in ('one', 'two', 'three')])"
+Lists,"import random
+
+positions = ['left', 'middle', 'right']
+positions2 = positions
+
+positions.append('bottom')
+random.shuffle(positions2)
+
+print(len(positions), len(positions2))
+print(positions==positions2)"
+Dictionaries,"d = {'a': 1, 'b': 2, 'c': 5}
+d['a']"
+Dictionaries,"d = {'a': 1, 'b': 2, 'c': 5}
+d['d']"
+Dictionaries,"d = {}
+for k in ['b', 'a', 'c']:
+    d[k] = k.upper()
+d"
+Dictionaries,"d = {}
+for k in ['b', 'a', 'c']:
+    d[k] = k.upper()
+list(d)"
+Dictionaries,"a = {'x': 1, 'y': 2}
+b = {'y': 2, 'x': 1}
+a == b"
+Dictionaries,"a = {'x': 1, 'y': 2}
+b = {'y': 2, 'x': 1}
+list(a) == list(b)"
+Dictionaries,"responses = 'ctctt'
+mapping = {'c': 'chair', 't': 'table'}
+[mapping[r] for r in responses]"
+Dictionaries,"mapping = {'c':'chair', 't':'table'}
+mapping['chair']"
+Dictionaries,"responses = ['c','c','t','c','t','t']
+counts = {'c': 0, 't': 0}
+for r in responses:
+    counts[r] += 1
+counts"
+Dictionaries,"rts = {'trial1': 300, 'trial2': 200}
+rts['trial3'] = 450
+len(rts)"
+Dictionaries,"rts = {'trial1': 300, 'trial2': 200}
+rts['trial3'] = 450
+sum(rts.values())"
+Dictionaries,"conds = {'A': 'congruent', 'B': 'incongruent'}
+seq = ['A', 'B', 'A']
+[conds[c] for c in seq if c == 'B']"
+Dictionaries,"trials = [{'stim': 'face'}, {'stim': 'object'}]
+for i, t in enumerate(trials, start=1):
+    t['id'] = i
+trials"
+Dictionaries,"trial = {'stimulus': {'type': 'shape', 'name': 'circle'}}
+trial['stimulus']['name']"
+Dictionaries,"mapping = {'c':'chair','t':'table'}
+trials = [{'resp': 'c'}, {'resp': 't'}]
+for t in trials:
+    t['resp'] = mapping[t['resp']]
+trials"
+Dictionaries,"trial = {'stim': 'circle', 'resp': 'c', 'rt': 500}
+[ (k, v) for k, v in trial.items() ]"
+Dictionaries,"responses = ['c','t','c','c','t']
+freq = {}
+for r in responses:
+    freq[r] = freq.get(r, 0) + 1
+freq"
+Dictionaries,"pairs = [('A','circle'), ('B','square'), ('A','ellipse')]
+conds = {}
+for cond, stim in pairs:
+    conds.setdefault(cond, []).append(stim)
+conds"
+Dictionaries,"mapping1 = {'c': 'chair', 't': 'table'}
+mapping2 = {v:k for k, v in mapping1.items()}
+mapping2['chair']"
+Dictionaries,"trials = [{'rt': 350},{'rt': 500},{'rt': 200}]
+[f['rt'] for f in trials if f['rt'] < 400]"
+Dictionaries,"correct = {'trial1': 'c', 'trial2': 't'}
+resp = {'trial1': 'c', 'trial2': 'c'}
+
+acc = {}
+for k in correct:
+    acc[k] = int(correct[k] == resp[k])
+acc"
+Dictionaries,"a = {'stim': 'circle'}
+b = {'rt': 400}
+a | b"
