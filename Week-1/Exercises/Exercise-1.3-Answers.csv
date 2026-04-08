@@ -1,0 +1,67 @@
+section,code,answer1,answer2,answer3,correct
+Conditionals,"a=3
+if (a==3):
+    print(""it's a three!"")",it's a three!,,,1
+Conditionals,"a=3
+if a==3:
+    print(""it's a four!"")",it's a four!,,,1
+Conditionals,"a=3
+if a=4:
+    print(""it's a four!"")",error,,,1
+Conditionals,"a=3
+if a<10:
+    print(""we're here"")
+elif a<100:
+    print( ""and also here"")",we're here,,,1
+Conditionals,"a=3
+if a<10:
+    print(""we're here"")
+if a<100:
+    print(""and also here"")","we're here
+and also here",,,1
+Conditionals,"a = ""False""
+if a:
+    print(""we're in the 'if'"")
+else:
+    print(""we're in the 'else'"")",we're in the 'if',,,1
+Conditionals,"a = 5
+b = 10
+if a and b:
+    print(""a is"", a)
+    print(""b is"", b)","a is 5
+b is 10",,,1
+Conditionals,"a = 5
+b = 0
+if a and b:
+    print(""a is"", a)
+    print(""b is"", b)",,,,1
+Conditionals,"a = 5
+b = 0
+if a or b:
+    print(""a is"", a)
+    print(""b is"", b)",a is 5,"a is 5
+b is 0",,1
+Conditionals,"if None:
+    print(""if"")
+elif []:
+    print(""elif"")
+else:
+    print(""else"")",else,,,1
+Conditionals,"n = 12
+if n > 0:
+    if n % 2 != 0:
+        print(""if"")
+    else:
+        print(""else"")",if,else,,1
+Conditionals,"x = 0
+y = 10
+if y and (y / x > 2):
+    print(""if"")
+else:
+    print(""else"")",else,if,error,1
+Conditionals,"x = 0
+y = 10
+if x and (y / x > 2):
+    print(""if"")
+else:
+    print(""else"")",else,,,1

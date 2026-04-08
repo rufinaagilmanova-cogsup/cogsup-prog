@@ -1,0 +1,109 @@
+section,code,answer1,answer2,answer3,correct
+Lists,"animals = ['dog', 'cat', 'panda']
+if panda in animals:
+    print(""found it!"")",panda,found it!,error,1
+Lists,"animals = ['dog', 'cat', 'panda']
+if ""panda"" or ""giraffe"" in animals:
+    print(""found it!"")",found it!,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+if ""panda"" and ""giraffe"" in animals:
+    print(""found it!"")",,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+if ['dog', 'cat'] in animals:
+    print(""we're here"")",we're here,,,1
+Lists,"some_nums = range(1,5)
+list(some_nums)","[1, 2, 3, 4]",,,1
+Lists,"some_nums = range(1,5)
+some_nums[0]",1,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+print(animals[-1])",panda,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+print(animals.index('cat'))",1,,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+more_animals = animals + ['giraffe']
+print(more_animals)","['dog', 'cat', 'panda', 'giraffe']",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+more_animals = animals.append('giraffe')
+print(more_animals)","['dog', 'cat', 'panda', 'giraffe']",,,0
+Lists,"animals = ['dog', 'cat', 'panda']
+animals.append(""giraffe"")
+print(animals)","['dog', 'cat', 'panda', 'giraffe']",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+for num,animal in enumerate(animals):
+    print(f""Number {num+1} is {animals}"")","Number 1 is ['dog', 'cat', 'panda']
+Number 2 is ['dog', 'cat', 'panda']
+Number 3 is ['dog', 'cat', 'panda']",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+for num,animal in enumerate(animals):
+    print(f""Number {num} is {animal}"")
+print(f""We have {len(animals)} animals in our list"")","Number 0 is dog
+Number 1 is cat
+Number 2 is panda
+We have 3 animals in our list",,,1
+Lists,"animals = ['dog', 'cat', 'panda']
+while animals:
+    print(animals.pop())
+print(f""We have {len(animals)} animals in our list"")","panda
+cat
+dog
+We have 0 animals in our list",,,1
+Lists,"lst = ['spam']
+print(len(lst))
+print(len(lst[0]))","1
+4",,,1
+Lists,list(range(10)[-5:]),"[5, 6, 7, 8, 9]",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[4]",'b',b,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[-2]",d,,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[12]",error,,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[0:5]","['a', 'b', 'c', 'a', 'b']",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[5:]","['c', 'd', 'e', 'c', 'd', 'e']","'c', 'd', 'e', 'c', 'd', 'e'","c,d,e,c,d,e",0
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[-2:]","['d','e']",,,1
+Lists,"lst = ['a','b','c']*2 + ['c','d','e']*2
+lst[12:]",error,[],,1
+Lists,"lst = list(""abcdef"")
+lst[:3]",error,"['a', 'b', 'c']",,1
+Lists,"lst = list(""abcdef"")
+lst[:10]",error,[],"['a', 'b', 'c', 'd', 'e', 'f']",1
+Lists,"lst = list(""abcdef"")
+lst[::2]","['a', 'c', 'e']",,,1
+Lists,"lst = list(""abcdef"")
+lst[:3:2]","['a', 'c']",,,1
+Lists,"lst = list(""abcdef"")
+lst[3::2]","['d', 'f']",,,1
+Lists,"lst = [""d"", ""a"", ""b"", ""f"", ""c"", ""e""]
+min(lst)",'a',a,,1
+Lists,"lst = [6, ""d"", 2, ""a"", 5, ""b"", 1, ""f"", 7, ""c"", 4, ""e"", 3]
+max(lst)",error,,,1
+Lists,"vowels = ['a', 'e', 'i','o','u']
+[element*i for i, element in enumerate(vowels)]","['', 'e', 'ii', 'ooo', 'uuuu']",,,1
+Lists,"vowels = ['a', 'e', 'i','o','u']
+numbers = [2, 4, 1, 3, 0]
+[vowel * number for vowel, number in zip(vowels, numbers)]","['aa', 'eeee', 'i', 'ooo', '']",,,1
+Lists,"responses = 'ccctcctttcc'
+[i for i, curResp in enumerate(responses) if curResp=='c']","[0, 1, 2, 4, 5, 8, 9]",,,0
+Lists,"numbers = [2, 4, 1, 3, 0]
+sorted(numbers)
+numbers","[0, 1, 2, 3, 4]","[2, 4, 1, 3, 0]",,1
+Lists,"numbers = [2, 4, 1, 3, 0]
+numbers.sort()
+numbers","[0, 1, 2, 3, 4]",,,1
+Lists,"[' '.join((i, 'and a')) for i in ('one', 'two', 'three')]",error,"['one and a', 'two and a', 'three and a']",,1
+Lists,"' '.join([' '.join((i, 'and a')) for i in ('one', 'two', 'three')])",one and a two and a three and a,,,1
+Lists,"import random
+
+positions = ['left', 'middle', 'right']
+positions2 = positions
+
+positions.append('bottom')
+random.shuffle(positions2)
+
+print(len(positions), len(positions2))
+print(positions==positions2)","4,4
+True","4 4
+True",,1

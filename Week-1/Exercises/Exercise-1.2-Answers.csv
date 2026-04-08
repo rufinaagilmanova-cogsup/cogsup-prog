@@ -1,0 +1,19 @@
+section,code,answer1,answer2,answer3,correct
+Simple operations,3 + 10,13,,,1
+Simple operations,3 = 10,error,,,1
+Simple operations,3 == 10,false,False,,1
+Simple operations,2 ** 10,20,1024,,1
+Simple operations,'3 + 10',13,3 + 10,,1
+Simple operations,3 * '10','101010',error,,0
+Simple operations,a*10,error,,,1
+Simple operations,'a' * 10,'aaaaaaaaaa',aaaaaaaaaa,,1
+Simple operations,int('3') + int('10'),13,,,1
+Simple operations,int('hello world'),error,,,1
+Simple operations,10 / 5,2,2,,0
+Simple operations,int(10 / 5),2,,,1
+Simple operations,10 / 4,2.5,,,1
+Simple operations,10 // 4,2,,,1
+Simple operations,int(10/4),2,,,1
+Simple operations,int(10)/4,2.5,,,1
+Simple operations,"type(""True"")",<class 'str'>,,,1
+Simple operations,type(True),<class 'bool'>,,,1
