@@ -1,0 +1,51 @@
+#Expyriment 1.0.0 (Python 3.11.5), .xpd-file, coding: UTF-8
+#date: Thu Apr 23 2026 16:01:32
+#--EXPERIMENT INFO
+#e mainfile: experiment.py
+#e sha1: 5396c8
+#e modules: 
+#e Experiment: Circle-Square Task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 2
+subject_id,subject_id,group,block,trial,condition,circle_position,response,validity,correct,rt
+2,Sub-01,Patient,1,1,deterministic,right,right,valid,Correct,1101
+2,Sub-01,Patient,1,2,deterministic,right,right,valid,Correct,600
+2,Sub-01,Patient,1,3,deterministic,right,right,valid,Correct,492
+2,Sub-01,Patient,1,4,deterministic,right,right,valid,Correct,695
+2,Sub-01,Patient,1,5,deterministic,right,right,valid,Correct,375
+2,Sub-01,Patient,1,6,deterministic,right,right,valid,Correct,513
+2,Sub-01,Patient,1,7,deterministic,right,right,valid,Correct,417
+2,Sub-01,Patient,1,8,deterministic,right,right,valid,Correct,474
+2,Sub-01,Patient,1,9,deterministic,right,right,valid,Correct,356
+2,Sub-01,Patient,1,10,deterministic,right,right,valid,Correct,518
+2,Sub-01,Patient,1,11,deterministic,right,right,valid,Correct,333
+2,Sub-01,Patient,1,12,deterministic,right,right,valid,Correct,303
+2,Sub-01,Patient,1,13,deterministic,right,right,valid,Correct,272
+2,Sub-01,Patient,1,14,deterministic,right,right,valid,Correct,317
+2,Sub-01,Patient,1,15,deterministic,right,right,valid,Correct,410
+2,Sub-01,Patient,1,16,deterministic,right,NA,invalid,NA,NA
+2,Sub-01,Patient,1,17,deterministic,right,NA,invalid,NA,NA
+2,Sub-01,Patient,1,18,deterministic,right,NA,invalid,NA,NA
+2,Sub-01,Patient,1,19,deterministic,right,right,valid,Correct,634
+2,Sub-01,Patient,1,20,deterministic,right,right,valid,Correct,842
+2,Sub-01,Patient,2,1,stochastic,left,left,valid,Correct,765
+2,Sub-01,Patient,2,2,stochastic,left,left,valid,Correct,428
+2,Sub-01,Patient,2,3,stochastic,right,left,valid,Incorrect,373
+2,Sub-01,Patient,2,4,stochastic,left,left,valid,Correct,451
+2,Sub-01,Patient,2,5,stochastic,left,left,valid,Correct,590
+2,Sub-01,Patient,2,6,stochastic,left,left,valid,Correct,1073
+2,Sub-01,Patient,2,7,stochastic,left,left,valid,Correct,1139
+2,Sub-01,Patient,2,8,stochastic,right,right,valid,Correct,1254
+2,Sub-01,Patient,2,9,stochastic,right,right,valid,Correct,923
+2,Sub-01,Patient,2,10,stochastic,left,left,valid,Correct,779
+2,Sub-01,Patient,2,11,stochastic,right,right,valid,Correct,427
+2,Sub-01,Patient,2,12,stochastic,right,right,valid,Correct,702
+2,Sub-01,Patient,2,13,stochastic,right,right,valid,Correct,879
+2,Sub-01,Patient,2,14,stochastic,right,right,valid,Correct,415
+2,Sub-01,Patient,2,15,stochastic,right,right,valid,Correct,476
+2,Sub-01,Patient,2,16,stochastic,left,left,valid,Correct,378
+2,Sub-01,Patient,2,17,stochastic,right,right,valid,Correct,437
+2,Sub-01,Patient,2,18,stochastic,left,left,valid,Correct,541
+2,Sub-01,Patient,2,19,stochastic,left,left,valid,Correct,469
+2,Sub-01,Patient,2,20,stochastic,right,right,valid,Correct,401
